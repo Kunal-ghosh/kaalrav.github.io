@@ -48,10 +48,15 @@ p {
     font-size: 4rem;
     font-weight: 300;
     color: black;
+    margin-top: 70px;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     text-align: center;
+}
+
+#images {
+    padding: 100px;
 }
 
 .section-title span {
@@ -84,8 +89,11 @@ p {
     padding-left: 80px;
 }
 
-.brand h1 span {
-    color: rgb(252, 172, 0);
+.brand1 {
+    padding-left: 0px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
 }
 
 
