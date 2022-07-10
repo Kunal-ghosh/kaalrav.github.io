@@ -15,6 +15,7 @@ html {
 
 body {
   background-color: rgba(0, 0, 0, 0.589);
+  /* background: url(images/fire_bg.mp4); */
 }
 
 a {
@@ -36,7 +37,7 @@ img {
 }
 
 p {
-  color: black;
+  color: rgb(224, 224, 224);
   font-size: 1.4rem;
   margin-top: 5px;
   line-height: 2.5rem;
@@ -63,7 +64,7 @@ p {
   color: rgb(255, 255, 255);
 }
 
-.cta {
+/* .cta {
   display: inline-block;
   padding: 10px 30px;
   color: white;
@@ -75,7 +76,7 @@ p {
   margin-top: 30px;
   transition: 0.3s ease;
   transition-property: background-color, color;
-}
+} */
 
 .cta:hover {
   color: white;
@@ -118,18 +119,17 @@ p {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 100%;
+  height: 100px;
   max-width: 1300px;
   padding: 0 0px;
 }
 
 .logo2 {
   position: absolute;
-  top: 37%;
-  left: 2%;
-  width: 84px;
-  height: 358px;
-  border-radius: 08px;
+top: 7%;
+left: 3%;
+width: 73px;
+height: 72px;
 }
 
 /* @-moz-keyframes spin {
@@ -209,6 +209,7 @@ p {
   background-color: transparent;
   position: sticky;
   overflow: hidden;
+  padding-bottom: 22%;
 }
 
 .kaalrav a {
@@ -224,18 +225,20 @@ p {
 
 #header .hamburger {
   height: 60px;
-  width: 60px;
-  display: inline-block;
-  border: 3px solid white;
-  border-radius: 50%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  cursor: pointer;
-  transform: scale(0.8);
-  margin-right: 0px;
+width: 60px;
+/* display: inline-block; */
+border: 3px solid white;
+border-radius: 50%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 100;
+cursor: pointer;
+transform: scale(0.8);
+margin-right: 0px;
+top: -15%;
+right: 17%;
 }
 
 #header .hamburger:after {
@@ -289,14 +292,14 @@ p {
 /* Hero Section */
 
 #vdo {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: 1;
+  z-index: -1;
   background-size: cover;
   overflow: hidden;
 }
@@ -329,8 +332,8 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
-  opacity: 0.7;
+  background-color: rgb(226, 218, 218);
+  opacity: 0;
   z-index: -1;
 }
 
@@ -394,9 +397,11 @@ p {
 #services .services {
   flex-direction: column;
   text-align: center;
-  max-width: 1500px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 100px 0;
+  /* background-image: url(./images/footermain.jpg); */
+  background-size: cover;
 }
 
 #services .service-top {
@@ -628,12 +633,12 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0px 0px 18px 0 #0000002c;
+  box-shadow: 0px 0px 18px 0 #f1eded2c;
   transition: 0.3s ease box-shadow;
 }
 
 #contact .contact-item:hover {
-  box-shadow: 0px 0px 5px 0 #0000002c;
+  box-shadow: 0px 0px 5px 0 white;
 }
 
 #contact .icon {
@@ -657,6 +662,11 @@ p {
 /*End contact Section */
 
 /* Footer */
+footer {
+  height: 300px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0);
+}
 
 #footer {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
@@ -749,6 +759,16 @@ p {
 /* Media Query For Tablet */
 
 @media only screen and (max-width: 450px) {
+  p {
+    color: rgb(224, 224, 224);
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .cta {
     font-size: 2.5rem;
     padding: 20px 60px;
@@ -769,9 +789,18 @@ p {
     transform: scale(0.8);
     margin-right: 0px;
     margin-right: 17px;
-    margin-top: 18px;
+    margin-top: -12px;
   }
-
+  .kaalrav a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 154px;
+    width: 200px;
+    height: auto;
+  }
   .kaalrav a img {
     background-color: transparent;
     position: fixed;
@@ -779,9 +808,13 @@ p {
     top: 35%;
     left: 17%;
     width: 139px;
-    height: 57px;
+    height: 97px;
   }
-
+  /* .brand a{
+    background-color: white;
+    font-size: 2%;
+    color: white;
+  } */
   .logo2 {
     position: fixed;
     top: 2%;
@@ -899,6 +932,9 @@ p {
     text-align: left;
     padding-left: 20px;
   }
+  .contact-info h1 {
+    color: white;
+  }
 
   /* End contact  */
 }
@@ -908,26 +944,33 @@ p {
 /* Media Query For Desktop */
 
 @media only screen and (min-width: 1200px) {
+  p {
+    color: rgb(224, 224, 224);
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    margin-left: -250px;
+    margin-right: -250px;
+  }
+
   #header .hamburger {
     height: 60px;
-    width: 60px;
-    top: 10%;
-    left: 01%;
-    width: 55px;
-    height: 55px;
-    border-radius: 08px;
-    /* display: inline-block; */
-    border: 3px solid white;
-    border-radius: 50%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-    cursor: pointer;
-    transform: scale(0.8);
-    margin-right: -500px;
-    margin-top: 25px;
+  width: 60px;
+  /* display: inline-block; */
+  border: 3px solid white;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  cursor: pointer;
+  transform: scale(0.8);
+  margin-right: 0px;
+  top: -15%;
+  right: -120%;
   }
 
   .cta {
@@ -1008,6 +1051,10 @@ p {
 
   /* End About */
   /* contact  */
+  #contact {
+    background-color: rgba(0, 0, 0, 0)55, 255, 255;
+  }
+
   #contact .contact {
     flex-direction: column;
     padding: 100px 0;
@@ -1219,114 +1266,6 @@ img {
   display: inline-block;
 }
 
-/* footer */
-/* @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
-
-body {
-  font-family: Lato, sans-serif;
-} */
-
-/* footer {
-  width:100vw;
-  position:fixed;
-  bottom:0px
-}
-footer div {
-  background-color:#4478e3;
-  margin: -5px 0px 0px 0px;
-  padding:0px;
-  color: #fff;
-  text-align:center;
-}
-svg {
-  width:100%;
-}
-.arrow {
-  stroke-width: .3px;
-  stroke:yellow;
-}
-.topball img {
-    width:100px;
-    height: auto;
-  animation: ball 1.3s ease-in-out;
-  animation-iteration-count:infinite;
-  animation-direction: alternate;
-  animation-delay: 0.3s;
-  cursor:pointer;
-}
-
-.wave {
-  animation: wave 3s linear;
-  animation-iteration-count:infinite;
-  fill: #4478e3;
-} */
-/* .drop {
-  fill: transparent;
-  animation: drop 5s ease infinite normal;
-  stroke: #4478e3;
-  stroke-width:0.5;
-  opacity:.6; 
-  transform: translateY(80%);
-} */
-/* .drop1 {
-  transform-origin: 20px 3px;
-}
-.drop2 {
-  animation-delay: 3s;
-  animation-duration:3s;
-  transform-origin: 25px 3px;
-}
-.drop3 {
-  animation-delay: -1s;
-  animation-duration:3.4s;
-  transform-origin: 16px 3px;
-} */
-/* .gooeff {
-  	filter: url(#goo);
-}
-#wave2 {
-  animation-duration:5s;
-  animation-direction: reverse;
-  opacity: .6
-}
-#wave3 {
-  animation-duration: 7s;
-  opacity:.3;
-}
-@keyframes drop {
-  0% {
-    transform: translateY(80%); 
-    opacity:.6; 
-  }
-  80% {
-    transform: translateY(80%); 
-    opacity:.6; 
-  }
-  90% { 
-    transform: translateY(10%) ; 
-    opacity:.6; 
-  }
-  100% { 
-    transform: translateY(0%) scale(1.5);  
-    stroke-width:0.2;
-    opacity:0; 
-  }
-}
-@keyframes wave {
-  to {transform: translateX(-100%);}
-}
-@keyframes ball {
-  to {transform: translateY(20%);}
-}
- */
-
-/* for the pen */
-/* html, body {
-    margin: 0;
-    min-height: 100%;
-    background-color: #f2f2f2;
-  }
-   */
 /* waves */
 footer {
   height: 300px;
@@ -1339,6 +1278,7 @@ footer {
   left: 0;
   right: 0;
   overflow-x: visible;
+  z-index: 2;
 }
 
 .wave {
@@ -1348,7 +1288,7 @@ footer {
   height: 100%;
   animation: wave 10s -3s linear infinite;
   transform: translate3d(0, 0, 0);
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .wave:nth-of-type(2) {
@@ -1374,7 +1314,4 @@ footer {
     transform: translateX(-50%);
   }
 }
-.pic {
-  width: 10%;
-  height: auto;
-}
+
