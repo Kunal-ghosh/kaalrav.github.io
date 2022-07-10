@@ -759,7 +759,8 @@ footer {
 
 /* Media Query For Tablet */
 
-@media only screen and (max-width:400px) {
+/* @media only screen and (max-width:400px) { */
+  @media only screen and (max-width: 390px) {
   p {
     color: rgb(224, 224, 224);
     font-size: 1.4rem;

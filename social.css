@@ -1,4 +1,4 @@
-@media only screen and (max-width: 644px) {
+@media only screen and (min-width: 390px) {
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
   .wrapper {
@@ -12,7 +12,7 @@
   }
 
   .wrapper .icon {
-    margin: 0 5px;
+    margin: 5px;
     text-align: center;
     cursor: pointer;
     display: flex;
