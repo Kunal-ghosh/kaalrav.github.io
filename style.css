@@ -651,6 +651,7 @@ right: 17%;
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 5px;
+  color: white;
 }
 
 #contact .contact-info h2 {
@@ -758,7 +759,7 @@ footer {
 
 /* Media Query For Tablet */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width:400px) {
   p {
     color: rgb(224, 224, 224);
     font-size: 1.4rem;

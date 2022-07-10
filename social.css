@@ -1,8 +1,8 @@
-@media only screen and (min-width: 1070px) {
+@media only screen and (max-width: 644px) {
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
   .wrapper {
-    display: inline-flex;
+    display: block;
     float: left;
     bottom: 0;
     position: fixed;
@@ -116,11 +116,11 @@
 }
 
 
-@media only screen and (min-width: 412px) {
+@media only screen and (min-width: 1200px) {
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
   .wrapper {
-    display: inline-flex;
+    display: flex;
     float: left;
     bottom: 0;
     position: fixed;
