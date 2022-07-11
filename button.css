@@ -1,6 +1,6 @@
 /* small device */
 
-@media screen and (min-width: 300px) and (max-width: 700px) {
+@media screen and (min-width: 20px) and (max-width: 700px) {
   /* register button */
   .button-81 {
     background-color: #fff;
