@@ -46,10 +46,11 @@ p {
 }
 
 .section-title {
+  /* font-family: 'Angel rhapsody'; */
   font-size: 4rem;
   font-weight: 300;
   color: rgb(255, 254, 254);
-  margin-top: 70px;
+  margin-top: 30px;
   margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -126,10 +127,10 @@ p {
 
 .logo2 {
   position: absolute;
-top: 7%;
-left: 3%;
-width: 73px;
-height: 72px;
+  top: 7%;
+  left: 3%;
+  width: 73px;
+  height: 72px;
 }
 
 /* @-moz-keyframes spin {
@@ -225,20 +226,20 @@ height: 72px;
 
 #header .hamburger {
   height: 60px;
-width: 60px;
-/* display: inline-block; */
-border: 3px solid white;
-border-radius: 50%;
-position: relative;
-display: flex;
-align-items: center;
-justify-content: center;
-z-index: 100;
-cursor: pointer;
-transform: scale(0.8);
-margin-right: 0px;
-top: -15%;
-right: 17%;
+  width: 60px;
+  /* display: inline-block; */
+  border: 3px solid white;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  cursor: pointer;
+  transform: scale(0.8);
+  margin-right: 0px;
+  top: -15%;
+  right: 17%;
 }
 
 #header .hamburger:after {
@@ -760,7 +761,7 @@ footer {
 /* Media Query For Tablet */
 
 /* @media only screen and (max-width:400px) { */
-  @media only screen and (max-width: 700px) {
+@media screen and (min-width: 390px) and (max-width: 700px) {
   p {
     color: rgb(224, 224, 224);
     font-size: 1.4rem;
@@ -768,9 +769,10 @@ footer {
     line-height: 2.5rem;
     font-weight: 300;
     letter-spacing: 0.05rem;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 55px;
+margin-right: 50px;
   }
+
   .cta {
     font-size: 2.5rem;
     padding: 20px 60px;
@@ -789,10 +791,12 @@ footer {
     z-index: 100;
     cursor: pointer;
     transform: scale(0.8);
-    margin-right: 0px;
+    /* margin-right: 0px;
     margin-right: 17px;
-    margin-top: -12px;
+    margin-top: -12px; */
+    top: -16px;
   }
+
   .kaalrav a {
     float: none;
     position: absolute;
@@ -803,24 +807,21 @@ footer {
     width: 200px;
     height: auto;
   }
+
   .kaalrav a img {
     background-color: transparent;
     position: fixed;
     overflow: hidden;
-    top: 35%;
+    top: 30%;
     left: 17%;
     width: 139px;
     height: 97px;
   }
-  /* .brand a{
-    background-color: white;
-    font-size: 2%;
-    color: white;
-  } */
+
   .logo2 {
     position: fixed;
-    top: 2%;
-    left: 3%;
+    top: 14px;
+    left: 10px;
     width: 84px;
     height: 57px;
     border-radius: 08px;
@@ -934,6 +935,7 @@ footer {
     text-align: left;
     padding-left: 20px;
   }
+
   .contact-info h1 {
     color: white;
   }
@@ -945,7 +947,11 @@ footer {
 
 /* Media Query For Desktop */
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 701px)
+
+/*and (max-width: 1445px) */
+  {
+
   p {
     color: rgb(224, 224, 224);
     font-size: 1.4rem;
@@ -959,20 +965,20 @@ footer {
 
   #header .hamburger {
     height: 60px;
-  width: 60px;
-  /* display: inline-block; */
-  border: 3px solid white;
-  border-radius: 50%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  cursor: pointer;
-  transform: scale(0.8);
-  margin-right: 0px;
-  top: -15%;
-  right: -120%;
+    width: 60px;
+    /* display: inline-block; */
+    border: 3px solid white;
+    border-radius: 50%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    cursor: pointer;
+    transform: scale(0.8);
+    margin-right: 0px;
+    top: 13px;
+    right: 33px;
   }
 
   .cta {
@@ -982,7 +988,7 @@ footer {
   }
 
   h1.section-title {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   /* Hero */
@@ -1054,7 +1060,7 @@ footer {
   /* End About */
   /* contact  */
   #contact {
-    background-color: rgba(0, 0, 0, 0)55, 255, 255;
+    background-color: rgba(0, 0, 0, 0) 55, 255, 255;
   }
 
   #contact .contact {
@@ -1096,6 +1102,7 @@ footer {
 
   /* End contact  */
 }
+
 
 .mySlides {
   display: none;
@@ -1219,6 +1226,7 @@ img {
 /* On smaller screens, decrease text size */
 
 @media only screen and (max-width: 300px) {
+
   .prev,
   .next,
   .text {
@@ -1231,6 +1239,7 @@ img {
   }
 
   @media only screen and (max-width: 500px) {
+
     .prev,
     .next,
     .text {
@@ -1238,6 +1247,7 @@ img {
     }
   }
 }
+
 .footer {
   position: relative;
   width: 100%;
@@ -1248,6 +1258,7 @@ img {
   justify-content: center;
   align-items: center;
 }
+
 .footer.social_icon {
   position: relative;
   display: flex;
@@ -1257,10 +1268,12 @@ img {
   flex-wrap: wrap;
   color: #f2f2f2;
 }
+
 .footer.social_icon li {
   list-style: none;
   color: #f2f2f2;
 }
+
 .footer.social_icon li a {
   font-size: 2em;
   color: #f2f2f2;
@@ -1272,8 +1285,19 @@ img {
 footer {
   height: 300px;
 }
+
+footer h2
+{
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 1px;
+  color: white;
+  z-index: 200;
+}
+
 .ocean {
-  height: 300px; /* change the height of the waves here */
+  height: 300px;
+  /* change the height of the waves here */
   width: 300%;
   position: relative;
   bottom: 0;
@@ -1309,11 +1333,12 @@ footer {
   0% {
     transform: translateX(0);
   }
+
   50% {
     transform: translateX(-20%);
   }
+
   100% {
     transform: translateX(-50%);
   }
 }
-
