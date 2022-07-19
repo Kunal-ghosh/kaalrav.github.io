@@ -1284,16 +1284,10 @@ img {
 /* waves */
 footer {
   height: 300px;
+  
 }
 
-footer h2
-{
-  position: absolute;
-  margin-top: 1px;
-  margin-left: 1px;
-  color: white;
-  z-index: 200;
-}
+
 
 .ocean {
   height: 300px;
@@ -1305,6 +1299,55 @@ footer h2
   right: 0;
   overflow-x: visible;
   z-index: 2;
+  
+  
+}
+
+.headingfooter
+{
+  height: 300px;
+  /* change the height of the waves here */
+  width: 300%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-x: visible;
+  z-index: 2;
+  display: block;
+  margin: auto;
+  
+}
+
+footer h2
+{ width: 100vw;
+  position: absolute;
+ 
+  margin-top: 220px;
+  margin-left: 1px;
+  color: white;
+  z-index: 9;
+  text-align: center;
+  font-size: 2em;
+  font-weight: normal;
+  font-family: 'New Sailor';
+  
+}
+
+footer h1
+{
+  width: 100vw;
+  position: absolute;
+ 
+  margin-top: 150px;
+  margin-left: 1px;
+  color: white;
+  z-index: 9;
+  text-align: center;
+  font-size: 5em;
+  font-family: 'Angel rhapsody';
+  letter-spacing: 2px;
+  font-weight: normal;
 }
 
 .wave {
