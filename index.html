@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="social.css">
-    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/social.css">
+    <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title> KAALRAV</title>
@@ -14,11 +14,33 @@
 
 
 <body>
-    <button class="button-81" role="button">REGISTER</button>
-    <!-- <a href="">
-        <i class="fa-brands fa-facebook"></i>
-    </a> -->
-    <!-- <section id="vdo"> -->
+    <img class="footer-img" src="./images/kaalrav-txt.png" alt="">
+    <a href="index-register.html#register"> 
+        <button class="button-81" role="button" >REGISTER</button>
+    </a>
+
+
+
+
+
+
+<!-- preloader not working -->
+    <!-- <div class="loader">
+        <video id="vdo1" autoplay>
+            <source src="./images/kaalrav_logo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <img src="logo.gif" alt="">
+      </div> -->
+
+
+
+
+
+
+
+
+
 
     <video id="vdo" autoplay muted playsinline loop>
         <source src="images/fire_bg.mp4" type="video/mp4">
@@ -31,35 +53,40 @@
             <div class="tooltip">
                 Twitter
             </div>
-            <span><i class="fab fa-twitter"></i></span>
+            <span> <a href="https://twitter.com/kaalrav?t=4Qbl7NJLZ3DPoWfdrc8ZEQ&s=08" target="_blank"
+                    style="text-decoration:none;color:black"> <i class="fab fa-twitter"></i></a></span>
         </div>
         <div class="icon facebook">
             <div class="tooltip">
                 Facebook
             </div>
-            <span><i class="fab fa-facebook-f"></i></span>
+            <span><a href="https://www.facebook.com/kaalravsmit/" target="_blank"
+                    style="text-decoration:none;color:black"><i class="fab fa-facebook-f"></i></a></span>
         </div>
         <div class="icon instagram">
             <div class="tooltip">
                 Instagram
             </div>
-            <span><i class="fab fa-instagram"></i></span>
+            <span><a href="https://instagram.com/kaalrav?igshid=YmMyMTA2M2Y=" target="_blank"
+                    style="text-decoration:none;color:black"><i class="fab fa-instagram"></i></a></span>
         </div>
         <div class="icon linkedin">
             <div class="tooltip">
                 LinkedIn
             </div>
-            <span><i class="fab fa-linkedin"></i></span>
+            <span><a href="https://www.linkedin.com/in/kaalrav-smit-115b73179" target="_blank"
+                    style="text-decoration:none;color:black"><i class="fab fa-linkedin"></i></a></span>
         </div>
         <div class="icon youtube">
             <div class="tooltip">
                 YouTube
             </div>
-            <span><i class="fab fa-youtube"></i></span>
+            <span><a href="https://youtube.com/c/KALAKSHETRASMIT" target="_blank"
+                    style="text-decoration:none;color:black"><i class="fab fa-youtube"></i></a></span>
         </div>
 
     </div>
-        <button class="ctn-btn" role="button">CONTACT</button>
+    <button class="ctn-btn" role="button">CONTACT</button>
 
 
     <div class="trail">
@@ -77,21 +104,18 @@
                     </div>
                     <div class="nav-list">
                         <!-- <button class="btn"> <a href=""> register</a></button> -->
-
-                        
-
                         <div class="hamburger">
                             <div class="bar"></div>
                         </div>
                         <ul>
                             <li><a href="index.html" data-after="Home">Home</a></li>
-                            <li><a href="#services" data-after="ABOUT">About</a></li>
-                            <li><a href="page1.html" data-after="SPONSORS">Sponsors</a></li>
-                            <li><a href="page1.html" data-after="IMAGES">Images</a></li>
-                            <li><a href="page2.html" data-after="EVENTS">Events</a></li>
-                            <li><a href="page3.html" data-after="ANNOUNCMENTS">Announcments</a></li>
-                            <li><a href="page3.html" data-after="REGISTRATION">Registration</a></li>
-                            <li><a href="contact.html" data-after="Contact">Contacts</a></li>
+                            <li><a href="index.html#services" data-after="ABOUT">About</a></li>
+                            <li><a href="index-sponsor.html" data-after="SPONSORS">Sponsors</a></li>
+                            <!-- <li><a href="page1.html" data-after="IMAGES">Images</a></li> -->
+                            <li><a href="index-event.html" data-after="EVENTS">Events</a></li>
+                            <li><a href="index-register.html" data-after="ANNOUNCMENTS">Announcments</a></li>
+                            <li><a href="index-register.html#register" data-after="REGISTRATION">Registration</a></li>
+                            <li><a href="index-contact.html" data-after="Contact">Contacts</a></li>
                         </ul>
                     </div>
                 </div>
@@ -150,45 +174,17 @@
           Your browser does not support the audio element.
           </audio> -->
 
-    <!-- Contact Section -->
-    <!-- <section id="contact">
-        <div class="contact container">
-            <div>
-                <h1 class="section-title">Contact <span>info</span></h1>
-            </div>
-            <div class="contact-items">
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-                    <div class="contact-info">
-                        <h1>Phone</h1>
-
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-                    <div class="contact-info">
-                        <h1>Email</h1>
-
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-                    <div class="contact-info">
-                        <h1>Address</h1>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End Contact Section -->
     <footer>
         <div class="ocean">
 
             <div class="wave"></div>
 
             <div class="wave"></div>
-            <h2>THE NEW SAIL</h2> 
+            <div class="headingfooter">
+
+                <!-- <h1>KaalraV</h1> -->
+                <h2>THE NEW SAIL</h2>
+            </div>
             <div class="wave"></div>
 
         </div>
@@ -196,8 +192,8 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="./app.js"></script>
-    </div>
+    <script src="./js/app.js"></script>
+<!-- </div> -->
 </body>
 
 </html>
