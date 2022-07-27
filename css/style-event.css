@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Angel';
-    src: url(./events/Angel\ rhapsody.ttf);
+    src: url(../events/Angel\ rhapsody.ttf);
     font-weight: 900;
 }
 /***** Events *****/
@@ -14,7 +14,7 @@
 #events{
     min-height: 100vh;
     color: white;
-    background-image: url(./events/eventsbg.jpg);
+    background-image: url(../events/eventsbg.jpg);
     background-size: cover;
     overflow: hidden;
 }

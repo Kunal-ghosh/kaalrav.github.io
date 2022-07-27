@@ -330,7 +330,7 @@ footer h2
 
 #footer
 {
-    background:url(images/footermain.jpg) no-repeat center center/cover;
+    background:url(../images/footermain.jpg) no-repeat center center/cover;
     clear: both;    
     font-size:0.8em;  
     
