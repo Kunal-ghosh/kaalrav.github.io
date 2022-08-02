@@ -912,6 +912,24 @@ margin-right: 50px;
   
   }
   /* End contact  */
+footer h6
+{
+  width: 100vw;
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 1px;
+  color: white;
+  z-index: 9;
+  text-align: center;
+  font-size: 4em;
+  font-weight: normal;
+  font-family: 'New Sailor';
+  top: 170px;
+}
+
+
+
+
 }
 
 /* End Media Query For Tablet */
@@ -1072,6 +1090,25 @@ margin-right: 50px;
   }
 
   /* End contact  */
+  footer h6
+  {
+    width: 100vw;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 1px;
+    color: white;
+    z-index: 9;
+    text-align: center;
+    font-size: 4em;
+    font-weight: normal;
+    font-family: 'New Sailor';
+    top: 170px;
+  }
+
+
+
+
+
 }
 
 

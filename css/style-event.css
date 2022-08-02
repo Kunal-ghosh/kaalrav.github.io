@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,15 +6,15 @@
 
 @font-face {
     font-family: 'Angel';
-    src: url(../events/Angel\ rhapsody.ttf);
+    src: url(./events/Angel\ rhapsody.ttf);
     font-weight: 900;
 }
-/***** Events *****/
+
 
 #events{
     min-height: 100vh;
     color: white;
-    background-image: url(../events/eventsbg.jpg);
+    background-image: url(./events/eventsbg.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -24,10 +24,8 @@
     font-family: 'Angel';
     text-align: center;
     text-shadow: 0.5rem 0.5rem 0.5rem black;
-    margin: 0;
-    padding-top: 3rem;
-    margin-bottom: -2.5rem;
-    transform: translateY(3.5rem);
+    margin-top: 6rem;
+    margin-bottom: -5rem;
 }
 .Event-Title::first-letter{
     font-size: 5rem;
@@ -38,25 +36,24 @@
     min-height: 100vh;
     min-width: 100vh;
     flex: 5 1 2rem;
-    margin: 0 0 4rem 0;
+    margin-bottom: 4rem;
 }
 
 .carousel-item {
-    background: black;
+    background: transparent;
     min-height: 25rem;
     min-width: 20rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
     cursor: pointer;
     overflow: hidden;
     display: flex;
     align-items: center;
+box-shadow: 0px 8px 100px 5px black;
 }
 
 #events img{
     background-size: cover;
-    border-radius: 1rem;
 }
-
 
 .event-names .event-list{
     display: flex;
@@ -85,14 +82,128 @@
 }
 
 @media screen and (max-width: 950px){
+    .carousel{
+        left: -10rem;
+    }
     .carousel-item {
-        background: transparent;
-        min-width: 100vh;
-        min-height: 100vh;
+        min-width: 75vw;
+        min-height: 60vh;
+    }
+    .Event-Title{
+        transform: translateY(4rem);
     }
     #events img{
-        max-height: 75vh;
-        width: 100vw;
+        max-height: 70vh;
         background-size: cover;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .carousel{
+        left: -16.5rem;
+    }
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Angel";
+    /* src: url(./events/Angel\rhapsody.ttf); */
+    font-weight: 900;
+}
+
+/** Events **/
+
+#events {
+    min-height: 100vh;
+    color: white;
+    background-image: url(../events/eventsbg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#events img {
+    background-size: cover;
+}
+
+.Event-Title {
+    color: white;
+    font-family: "Angel";
+    text-align: center;
+    text-shadow: 0.5rem 0.5rem 0.5rem black;
+    margin-top: 5rem;
+    margin-bottom: -6rem;
+    transform: translateY(4rem);
+}
+
+.Event-Title::first-letter {
+    font-size: 5rem;
+}
+
+.carousel {
+    color: rgb(255, 0, 43);
+    background: transparent;
+    min-height: 100vh;
+    min-width: 100vw;
+    flex: 5 1 2rem;
+    margin-bottom: 4rem;
+}
+
+.carousel-item {
+    background: transparent;
+    min-height: 60vh;
+    min-width: 30vw;
+    border-radius: 2rem;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.event-names .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-names .event-list h5 {
+    margin: 1rem;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    transition: ease 0.35s 0.25s;
+}
+
+.event-names .event-list {
+    margin: -5rem 0 5rem 0;
+    cursor: pointer;
+}
+
+.event-names .event-list h5:hover {
+    width: 15rem;
+    background: rgba(255, 255, 255, 0.75);
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .carousel-item {
+        min-width: 40vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .carousel-item {
+        min-width: 60vw;
     }
 }
