@@ -172,7 +172,7 @@
                             <label class="labelclass" for="college">College ID Card Upload Image:</label>
                             <br>
                             <input
-                                class="inputclass"
+                                class="inputfileclass"
                                 type="file"
                                 id="myFile"
                                 name="filename"
@@ -209,7 +209,7 @@ var abox = document.getElementsByClassName("shield")[0];
         let ibox = document.getElementsByClassName("labelclass")[3];
         let jbox = document.getElementsByClassName("inputclass")[3];
         let kbox = document.getElementsByClassName("labelclass")[4];
-        let lbox = document.getElementsByClassName("inputclass")[4];
+        let lbox = document.getElementsByClassName("inputfileclass")[0];
 
         let submitbox = document.getElementsByClassName("submitbtn")[0];
 
@@ -226,7 +226,7 @@ var abox = document.getElementsByClassName("shield")[0];
             ibox.classList.toggle("label-move");
             jbox.classList.toggle("input-move");
             kbox.classList.toggle("label-move");
-            lbox.classList.toggle("input-move");
+            lbox.classList.toggle("inputfileclass-move");
             submitbox.classList.toggle("submitbtn-move");
         }
             </script>

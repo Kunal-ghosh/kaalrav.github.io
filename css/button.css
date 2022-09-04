@@ -154,12 +154,10 @@ z-index: 200;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    bottom: 24px;
+    bottom: 67px;
     position: fixed;
     right: 50px;
-    /* left: 629px; */
-    z-index: 50;
-    /* left: 629px; */
+    z-index: 70;
   }
 
   .ctn-btn:hover {

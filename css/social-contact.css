@@ -17,7 +17,8 @@ html {
 }
 body {
   font-family: arial;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-color: rgb(96, 194, 132);
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
   /* background: linear-gradient(-45deg, #7b00ff, #6100c9, #490098, #300063); */
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;

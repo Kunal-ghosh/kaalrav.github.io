@@ -862,7 +862,7 @@ margin-top: 9px; */
 
     to {
       width: 72vw;
-      height: 72vh;
+      height: 90vh;
       margin-top: 160px;
 
 
@@ -1078,6 +1078,46 @@ form {
   }
 }
 
+
+.inputfileclass {
+  height: 1vh;
+
+  width: 1vw;
+  margin-bottom: 0px;
+  border: none;
+  font-family: 'Raleway';
+
+}
+
+.inputfileclass-move {
+  animation-name: inputtfile;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
+  animation-timing-function: ease-out;
+  border-radius: 10px;
+  
+}
+
+@keyframes inputtfile {
+
+  from {
+    height: 1vh;
+
+    width: 1vw;
+    margin-bottom: 0px;
+
+  }
+
+  to {
+    height: 3.4vh;
+    width: 20vw;
+    margin-bottom: 0px;
+    border-radius: 0px;
+  }
+}
 
 
 

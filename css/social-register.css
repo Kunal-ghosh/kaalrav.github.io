@@ -331,14 +331,14 @@ footer h2
 #footer
 {
     background:url(../images/footermain.jpg) no-repeat center center/cover;
-    clear: both;    
-    font-size:0.8em;  
-    
-    min-height: 70px;
+    clear: both;
+    font-size: 0.8em;
+    height: 229px;
+    /* min-height: 49px; */
     position: absolute;
     min-width: 100vw;
     margin: 0 auto;
-    bottom:0;
+    bottom: 0;
     z-index: 1;
 }
 
@@ -365,4 +365,23 @@ footer h2
 #h-main1
 {
     color: black;
+}
+
+
+@media screen and (max-height:580px)
+{
+
+  #footer
+{
+    background:url(../images/footermain.jpg) no-repeat center center/cover;
+    clear: both;
+    font-size: 0.8em;
+    height: 229px;
+    /* min-height: 49px; */
+    position: absolute;
+    min-width: 100vw;
+    margin: 0 auto;
+    bottom: 0;
+    z-index: -1;
+}
 }

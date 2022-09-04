@@ -175,25 +175,24 @@ box-shadow: 0px 8px 100px 5px black;
     justify-content: center;
 }
 
-.event-names .event-list h5 {
-    margin: 1rem;
-    padding: 1rem;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 2rem;
-    color: white;
-    text-align: center;
-    transition: ease 0.35s 0.25s;
-}
-
 .event-names .event-list {
     margin: -5rem 0 5rem 0;
     cursor: pointer;
 }
 
-.event-names .event-list h5:hover {
-    width: 15rem;
+.event-names .event-list h5 {
+    margin: 1rem;
+    padding: 1rem;
     background: rgba(255, 255, 255, 0.75);
+    border-radius: 2rem;
     color: black;
+    text-align: center;
+    transition: ease 0.35s 0.25s;
+}
+
+.event-names .event-list h5:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 @media screen and (max-width: 900px) {
