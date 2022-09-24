@@ -319,6 +319,36 @@ p {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #hero {
   background-size: cover;
   background-position: top center;
@@ -718,6 +748,75 @@ footer {
 
 /* @media only screen and (max-width:400px) { */
 @media screen and (min-width: 100px) and (max-width: 700px) {
+
+
+
+
+/* vdo phone */
+/* #vdo-ph {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size: fit;
+  overflow: hidden;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #vdo-ph {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #vdo-ph {
+    width: auto;
+    height: 100%;
+  }
+}
+
+  #vdo {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  @media (min-aspect-ratio: 16/9) {
+    #vdo {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    #vdo {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  
+ */
+
+
+
+
+
+
+
   p {
     color: rgb(224, 224, 224);
     font-size: 1.4rem;

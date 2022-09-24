@@ -68,7 +68,7 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    bottom: 11px;
+    bottom: 85px;
 position: fixed;
 right: 11px;
 z-index: 200;
