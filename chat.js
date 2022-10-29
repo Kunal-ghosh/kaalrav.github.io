@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Hi I am a chat bot made for your assistance. Ask me anything related to this website."
+    let firstMessage = "Hi I am a chat bot made for your assistance. Ask me anything related to this website. Try typing <br> > registration <br> > passes"
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
@@ -60,7 +60,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = "I love Code Palace!";
+        userText = "";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';

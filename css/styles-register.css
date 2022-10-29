@@ -2316,6 +2316,11 @@ body {
     font-size: 24px;
   }
 
+  .fa-solid fa-envelope
+  {
+    color: #bbb;
+  }
+
   .fa fa-linkedin-square {}
 
   .card {

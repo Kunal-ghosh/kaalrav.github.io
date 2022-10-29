@@ -13,6 +13,125 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SCROLLBAR */
+
+/* 
+html {
+  scrollbar-width: normal;
+  scrollbar-color: rgb(240, 0, 0) #555;
+  background: url(asmita.png);
+  background-image: url(asmita.png);
+}
+
+html::-webkit-scrollbar {
+  width: 50px;
+  background: url(asmita.png);
+  background-image: url(asmita.png);
+  
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgb(34, 255, 0);
+  background: url(asmita.png);
+  background-image: url(asmita.png);
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(255, 0, 0);
+  background: url(asmita.png);
+  background-image: url(asmita.png);
+}
+
+html::-webkit-scrollbar-track {
+  background-color: rgba(136, 0, 255, 0.333);
+  background: url(asmita.png);
+  background-image: url(asmita.png);
+}
+
+html::-webkit-scrollbar-track:hover {
+  background-color: rgb(234, 255, 0);
+  background: url(asmita.png);
+  background-image: url(asmita.png);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
   background-color: rgba(0, 0, 0, 0.589);
   /* background: url(images/fire_bg.mp4); */
@@ -174,7 +293,7 @@ p {
 }
 
 #header .nav-list ul a {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
   letter-spacing: 0rem;
@@ -182,7 +301,7 @@ p {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   padding: 0px;
-  padding-top: 40px;
+  padding-top: 30px;
   display: block;
 }
 

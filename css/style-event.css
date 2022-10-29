@@ -3,14 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 @font-face {
     font-family: 'Angel';
     src: url(./events/Angel\ rhapsody.ttf);
     font-weight: 900;
 }
-
-
 #events{
     min-height: 100vh;
     color: white;
@@ -18,7 +15,6 @@
     background-size: cover;
     overflow: hidden;
 }
-
 .Event-Title{
     color: white;
     font-family: 'Angel';
@@ -38,7 +34,6 @@
     flex: 5 1 2rem;
     margin-bottom: 4rem;
 }
-
 .carousel-item {
     background: transparent;
     min-height: 25rem;
@@ -50,11 +45,9 @@
     align-items: center;
 box-shadow: 0px 8px 100px 5px black;
 }
-
 #events img{
     background-size: cover;
 }
-
 .event-names .event-list{
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +63,6 @@ box-shadow: 0px 8px 100px 5px black;
     text-align: center;
     transition: ease 0.35s 0.25s;
 }
-
 .event-names .event-list{
     margin: -5rem 0 5rem 0;
     cursor: pointer;
@@ -80,7 +72,6 @@ box-shadow: 0px 8px 100px 5px black;
     background: rgba(255, 255, 255, 0.75);
     color: black;
 }
-
 @media screen and (max-width: 950px){
     .carousel{
         left: -10rem;
@@ -97,7 +88,6 @@ box-shadow: 0px 8px 100px 5px black;
         background-size: cover;
     }
 }
-
 @media screen and (max-width: 600px) {
     .carousel{
         left: -16.5rem;
@@ -116,7 +106,7 @@ box-shadow: 0px 8px 100px 5px black;
     font-weight: 900;
 }
 
-/** Events **/
+/** Events **/
 
 #events {
     min-height: 100vh;
@@ -206,3 +196,5 @@ box-shadow: 0px 8px 100px 5px black;
         min-width: 60vw;
     }
 }
+
+

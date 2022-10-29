@@ -440,6 +440,44 @@ p {
   margin: 0 auto;
 }
 
+
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 59vh;
+  width: 60vw;
+  color: white;
+  background: linear-gradient(154.82deg,
+      rgba(152, 152, 152, 0.65) -1.48%,
+      rgba(30, 29, 29, 0.523197) 23.68%,
+      rgba(0, 0, 0, 0.39) 50.11%,
+      rgba(79, 78, 78, 0.35) 70.72%,
+      rgba(243, 243, 243, 0.2) 100%);
+
+  box-shadow: 10px 4px 19px rgba(0, 0, 0, 0.82),
+    -10px 4px 19px rgba(0, 0, 0, 0.82);
+  border-radius: 32px;
+  text-transform: uppercase;
+  margin-top: 9px;
+
+}
+
+@media screen and (max-width: 450px) {
+  .content-box {
+    width: 80vw;
+  }
+}
+
+
+
+
 #services .service-bottom {
   display: flex;
   align-items: center;
@@ -754,6 +792,7 @@ footer {
 
 /* vdo phone */
 /* #vdo-ph {
+  display: none;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -764,23 +803,23 @@ footer {
   z-index: -1;
   background-size: fit;
   overflow: hidden;
-}
+} */
 
-@media (min-aspect-ratio: 16/9) {
+/* @media (min-aspect-ratio: 16/9) {
   #vdo-ph {
     width: 100%;
     height: auto;
   }
-}
+} */
 
-@media (max-aspect-ratio: 16/9) {
+/* @media (max-aspect-ratio: 16/9) {
   #vdo-ph {
     width: auto;
     height: 100%;
   }
-}
+} */
 
-  #vdo {
+  /* #vdo {
     display: none;
     position: fixed;
     right: 0;
@@ -806,10 +845,10 @@ footer {
       width: auto;
       height: 100%;
     }
-  }
+  } */
 
   
- */
+
 
 
 
